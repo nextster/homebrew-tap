@@ -7,7 +7,7 @@ cask "tolk" do
   desc "Compact native translator for selected text"
   homepage "https://github.com/nextster/tolk-releases"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Tolk.app"
 
