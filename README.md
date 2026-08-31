@@ -34,6 +34,21 @@ brew upgrade --cask tolk
 Tolk releases are signed with Developer ID, notarized by Apple and published
 in [`nextster/tolk-releases`](https://github.com/nextster/tolk-releases/releases).
 
+Install Snap on macOS 26 or later:
+
+```sh
+brew install --cask nextster/tap/snap
+```
+
+Upgrade later with:
+
+```sh
+brew upgrade --cask snap
+```
+
+Snap releases are signed with Developer ID, notarized by Apple and published
+in [`nextster/snap-releases`](https://github.com/nextster/snap-releases/releases).
+
 Install Tuck on macOS 14 or later:
 
 ```sh
