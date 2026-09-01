@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "snap" do
-  version "1.0.0"
-  sha256 "49cda110929aeca60152f43e09eab2f6edbc136a3569b24667bad1178db3a6c4"
+  version "1.0.1"
+  sha256 "77bc3de6576039b751efb0f40689f3719a486eb7db08d2cecd5baa886b015f27"
 
   url "https://github.com/nextster/snap-releases/releases/download/v#{version}/Snap-#{version}.dmg"
   name "Snap"
