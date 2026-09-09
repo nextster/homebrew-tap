@@ -1,6 +1,6 @@
 cask "vall" do
-  version "1.0-beta.2"
-  sha256 "e478341696537c885149acbe90c8c677b4ddc053c134dfab56dd3d0cd362332f"
+  version "1.0-beta.3"
+  sha256 "b545d4fb2c47077b87fc25b676ebfe5ce30488b3e05bf8356852c17399b5b5df"
 
   url "https://github.com/nextster/vall-releases/releases/download/v#{version}/Vall-1.0.dmg"
   name "Vall"
