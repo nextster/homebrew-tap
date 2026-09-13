@@ -58,7 +58,7 @@ brew install --cask nextster/tap/tuck
 Upgrade later with:
 
 ```sh
-brew upgrade --cask tuck
+brew upgrade --cask nextster/tap/tuck
 ```
 
 Tuck releases are signed with Developer ID, notarized by Apple and published
