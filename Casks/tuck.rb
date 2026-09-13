@@ -1,6 +1,6 @@
 cask "tuck" do
-  version "1.0-beta.3"
-  sha256 "0869f734118f96fa02cfea350f4ba033b2232ae4375171efefda76620e0fe464"
+  version "1.0-beta.4"
+  sha256 "a2d2adc291fc5f5a9325a7720932e1ba5759cfd0e86e7a805e1cfe6c1a963f0b"
 
   url "https://github.com/nextster/tuck-releases/releases/download/v#{version}/Tuck-1.0.dmg"
   name "Tuck"
