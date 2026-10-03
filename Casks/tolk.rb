@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "tolk" do
-  version "0.1.0-beta.5"
-  sha256 "6c3fb47e5bce58df9704b99b07a59e7fef14284cc27d4d0d1e90d2c63ade2215"
+  version "0.1.0-beta.6"
+  sha256 "f6ae6e665a5557e5e660bb0c5a58a7faa5f65f28328bd903fdb093f9c31a2929"
 
   url "https://github.com/nextster/tolk-releases/releases/download/v#{version}/Tolk-0.1.0.dmg"
   name "Tolk"
