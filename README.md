@@ -1,5 +1,32 @@
 # nextster Homebrew Tap
 
+Install Note Panel for Obsidian on macOS 13 or later:
+
+```sh
+brew install --cask nextster/tap/obsidian-note-panel
+note-panel install
+```
+
+`note-panel install` opens a folder chooser for your vault; a vault path can also
+be passed directly. Enable Note Panel in Obsidian's Community plugins and restart
+Obsidian. Upgrade registered vault installations with:
+
+```sh
+brew upgrade --cask nextster/tap/obsidian-note-panel
+```
+
+Remove the Homebrew command and its registered plugin installations with:
+
+```sh
+brew uninstall --cask nextster/tap/obsidian-note-panel
+```
+
+Notes and plugin settings are preserved. To remove and forget one vault, use
+`note-panel uninstall "/path/to/vault"` before uninstalling the cask. Reinstalling
+the cask restores previously registered vault installations.
+
+Source and releases: [`nextster/obsidian-note-panel`](https://github.com/nextster/obsidian-note-panel).
+
 Install Chromium Bridge on macOS:
 
 ```sh
