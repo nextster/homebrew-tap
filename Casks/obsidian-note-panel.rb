@@ -4,10 +4,10 @@ cask "obsidian-note-panel" do
   version "0.5.2"
   sha256 "3bd92feba631febeee90a179fd4953a222babd6df17918211a6fa7e4c0a50add"
 
-  url "https://github.com/nextster/obsidian-note-panel/releases/download/#{version}/note-panel-#{version}.zip"
+  url "https://github.com/nextster/obsidian-note-overlay/releases/download/#{version}/note-panel-#{version}.zip"
   name "Note Panel"
   desc "Floating note editor with native tabs for Obsidian"
-  homepage "https://github.com/nextster/obsidian-note-panel"
+  homepage "https://github.com/nextster/obsidian-note-overlay"
 
   depends_on macos: :ventura
 

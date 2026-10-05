@@ -25,7 +25,7 @@ Notes and plugin settings are preserved. To remove and forget one vault, use
 `note-panel uninstall "/path/to/vault"` before uninstalling the cask. Reinstalling
 the cask restores previously registered vault installations.
 
-Source and releases: [`nextster/obsidian-note-panel`](https://github.com/nextster/obsidian-note-panel).
+Source and releases: [`nextster/obsidian-note-overlay`](https://github.com/nextster/obsidian-note-overlay).
 
 Install Chromium Bridge on macOS:
 
