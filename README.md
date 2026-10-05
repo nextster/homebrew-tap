@@ -4,16 +4,27 @@ Install Note Panel for Obsidian on macOS 13 or later:
 
 ```sh
 brew install --cask nextster/tap/obsidian-note-panel
+```
+
+The first installation automatically selects the only available known Obsidian
+vault with the default `.obsidian` folder. If several vaults are available, or
+none can be detected, finish setup with:
+
+```sh
 note-panel install
 ```
 
-`note-panel install` opens a folder chooser for your vault; a vault path can also
-be passed directly. Enable Note Panel in Obsidian's Community plugins and restart
-Obsidian. Upgrade registered vault installations with:
+This command opens a folder chooser; a vault path can also be passed directly.
+Enable Note Panel in Obsidian's Community plugins and restart Obsidian.
+Homebrew does not open dialogs or start Obsidian. Upgrade registered vault
+installations with:
 
 ```sh
 brew upgrade --cask nextster/tap/obsidian-note-panel
 ```
+
+Updates use your saved choice. They do not discover a new vault if you have not
+chosen one or removed the last registered installation.
 
 Remove the Homebrew command and its registered plugin installations with:
 

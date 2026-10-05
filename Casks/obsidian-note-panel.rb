@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "obsidian-note-panel" do
-  version "0.5.2"
-  sha256 "3bd92feba631febeee90a179fd4953a222babd6df17918211a6fa7e4c0a50add"
+  version "0.5.4"
+  sha256 "5ed4a63dadf1e5bede037f5db6a084dd6a20f72a663138361c54d388bbf5efc9"
 
   url "https://github.com/nextster/obsidian-note-overlay/releases/download/#{version}/note-panel-#{version}.zip"
   name "Note Panel"
@@ -25,7 +25,8 @@ cask "obsidian-note-panel" do
   }
 
   caveats <<~EOS
-    Choose an Obsidian vault with:
+    First installation selects the only available known Obsidian vault.
+    If no single vault can be detected, finish setup with:
       note-panel install
 
     Enable Note Panel in Community plugins and restart Obsidian.
