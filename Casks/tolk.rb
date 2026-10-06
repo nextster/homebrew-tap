@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "tolk" do
-  version "0.1.0-beta.9"
-  sha256 "5dc275dd52bc280d5a5b2c34a8f590e13294a31e3e5ac2bb6a2d6db1a89ba6ae"
+  version "0.1.0-beta.10"
+  sha256 "8eca8dfbb6ef7f7a251dc41b29bffae006ace5e18bd1b520ab12542e49d098ea"
 
   url "https://github.com/nextster/tolk-releases/releases/download/v#{version}/Tolk-0.1.0.dmg"
   name "Tolk"
@@ -24,3 +24,4 @@ cask "tolk" do
     first-launch setup after installation.
   EOS
 end
+
